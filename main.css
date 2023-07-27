@@ -84,7 +84,7 @@ body {
 
 .hero .left-imgs button {
   margin-top: 50px;
-  padding: 22px 50px;
+  padding: 21px 50px;
   justify-content: center;
   align-items: center;
 
@@ -110,13 +110,79 @@ body {
 
 .hero .right-imgs img{
   padding-top: 200px;
-  width: 400px;
+  width: 500px;
+  height: 800px;
 }
 
+.cont-bg-desc {
+  position: relative;
+  width: 1837px;
+  height: 1704px;
+}
+
+.desc {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.card {
+  margin: 30px 0;
+  width: 806px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: rgba(252, 248, 227, 0.50);
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+}
+
+.card .content{
+  padding: 60px;
+  place-content: space-around center;
+}
+
+.card .content h3 {
+  margin: 0;
+  padding: 0;
+  color: #4B1B00;
+  font-family: Outfit, Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 1100px;
+  line-height: normal;
+}
+
+.card .content p {
+  width: 404px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.688%; /* 27.871px */
+}
+
+.card .content img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
 .footer {
   position: relative;
   height: 100px;
-  background-color: aqua;
+  background-color: #FAEFBB;
+  box-shadow: 0 0 10px #888888;
 }
 
 .developers {
