@@ -101,7 +101,6 @@ body {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-
 }
 
 .hero .left-imgs button:hover {
@@ -209,10 +208,15 @@ body {
   line-height: normal;
 }
 
+.try-noter .box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .try-noter .box {
-  display: flex;
-  justify-content: center;
-  place-items: center;
+  display: block;
 
   margin: 0px 90px;
   height: 587px;
@@ -223,8 +227,14 @@ body {
   backdrop-filter: blur(40px);
 }
 
+.try-noter .box .buttons-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .try-noter .box .button { 
-  margin: auto;
+  margin: 0 50px;
   width: 250px;
   height: 250px;
   
@@ -255,13 +265,31 @@ input[type="file"] {
   display: none;
 }
 
+
+.try-noter .box button {
+  margin-top: 50px;
+  padding: 21px 50px;
+
+  border: none;
+  border-radius: 30px;
+  background: #F8D449;
+  backdrop-filter: blur(40px);
+
+  color: #4B1B00;
+  font-family: Outfit, Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
 .try-noter .box button:hover { 
-  background: rgba(252, 248, 227, 0.50);
-  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  background-color: unset;
+  border: 1px #4B1B00 solid;
   backdrop-filter: blur(40px);
   cursor: pointer;
 }
-
 
 .footer {
   position: relative;
