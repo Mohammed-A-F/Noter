@@ -12,6 +12,7 @@ body {
   top: 0;
   background-color: #FAEFBB;
   transition: background-color 0.3s ease;
+  z-index: 100;
 }
 
 .inner-con{
@@ -21,7 +22,7 @@ body {
 }
 
 .navbar img {
-  width: 100px;
+  width: 80px;
   height: 41.353px;
   flex-shrink: 0;
 }
@@ -175,6 +176,69 @@ body {
   width: 180px;
   height: 180px;
 }
+
+.try-noter {
+  position: relative;
+}
+
+.try-noter img {
+  position: absolute;
+  z-index: -1;
+}
+
+.try-noter-content {
+  justify-content: center;
+  text-align: center;
+}
+
+.try-noter h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #4B1B00;
+  font-family: Outfit, Roboto;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.try-noter .box {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+
+  margin: 0px 90px;
+  margin-bottom: 200PX;
+  height: 587px;
+
+  border-radius: 40px;
+  background: rgba(252, 248, 227, 0.50);
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+}
+
+.try-noter .box button { 
+  margin: auto;
+  width: 250px;
+  height: 250px;
+
+  background: none;
+  border-radius: 40px;
+  border: 3px dashed #4B1B00;
+
+  color: #4B1B00;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.try-noter .box button:hover { 
+  background: rgba(252, 248, 227, 0.50);
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(40px);
+}
+
 
 .footer {
   position: relative;
