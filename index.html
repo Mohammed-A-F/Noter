@@ -85,22 +85,46 @@
         <img src="images/Ellipse 6.png" alt="">
         <div class="try-noter-content">
           <h2 id="try-noter">Try It Your Self</h2>
-          <form class="box" method="POST">
-            <div class="box-content">
-              <div class="buttons-cont">
-                <label for="audio" class="button">audio
-                  <input type="file" name="audio" id="audio" accept="audio/*">
-                </label>
-                <label for="video" class="button">video
-                  <input type="file" name="video" id="video" accept="video/*">
-                </label>
-                <label for="record" class="button">record now
-                  <input type="file" name="record" id="record" accept="audio/*">
-                </label>
+          <div class="box">
+            <form method="POST">
+              <div class="box-content">
+                <div class="buttons-cont">
+                  <label for="audio" class="button">audio
+                    <input type="file" name="audio" id="audio" accept="audio/*">
+                  </label>
+                  <label for="video" class="button">video
+                    <input type="file" name="video" id="video" accept="video/*">
+                  </label>
+                  <label for="record" class="button">record now
+                    <input type="file" name="record" id="record" accept="audio/*">
+                  </label>
+                  </div>
+                <button type="submit" class="submit-file">Genrate</button>
+              </div>
+            </form>
+            <div class="line"></div>
+            <div class="notes-ai">
+              <h2 id="h2-main-title">Title</h2>
+              <div class="note">
+                <div class="note-header">
+                  <div style="display: flex; align-items: center;">
+                    <h4 style="margin-right: 5px;">Flash Card?</h4>
+                    <!-- Rounded switch -->
+                    <label class="switch">
+                      <input type="checkbox" value="checked" name="flash">
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                  <h3 id="h3-sub-title">Sub Title</h3>
+                  <button class="sound-img"><img src="images/icons8-speaker-64 (1) 1.png" alt=""></button>
                 </div>
-              <button type="submit">Genrate</button>
+                <p id="p-notes">note note note note note note note note note note .
+                  note note note note note note note note note note note note note note note note note note note .
+                  note note note note note note .
+                  note note note note note note note .</p>
+              </div>
             </div>
-          </form>
+          </div>
         </div>
       </section>
     </main>
