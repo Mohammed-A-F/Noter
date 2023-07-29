@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="main.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oufit|Roboto|Trirong">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,7 +87,7 @@
         <div class="try-noter-content">
           <h2 id="try-noter">Try It Your Self</h2>
           <div class="box">
-            <form method="POST">
+            <div>
               <div class="box-content">
                 <div class="buttons-cont">
                   <label for="audio" class="button">audio
@@ -99,30 +100,11 @@
                     <input type="file" name="record" id="record" accept="audio/*">
                   </label>
                   </div>
-                <button type="submit" class="submit-file">Genrate</button>
+                  <input type="hidden" name="id" id="id">
+                <button type="submit" class="submit-file" onclick="generateHtml()">Genrate</button>
               </div>
-            </form>
-            <div class="line"></div>
-            <div class="notes-ai">
-              <h2 id="h2-main-title">Title</h2>
-              <div class="note">
-                <div class="note-header">
-                  <div style="display: flex; align-items: center;">
-                    <h4 style="margin-right: 5px;">Flash Card?</h4>
-                    <!-- Rounded switch -->
-                    <label class="switch">
-                      <input type="checkbox" value="checked" name="flash">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-                  <h3 id="h3-sub-title">Sub Title</h3>
-                  <button class="sound-img"><img src="images/icons8-speaker-64 (1) 1.png" alt=""></button>
-                </div>
-                <p id="p-notes">note note note note note note note note note note .
-                  note note note note note note note note note note note note note note note note note note note .
-                  note note note note note note .
-                  note note note note note note note .</p>
-              </div>
+            </div>
+            <div class="notes-ai" id="notes-ai">
             </div>
           </div>
         </div>
@@ -152,7 +134,7 @@
               <div class="img-cont">
                 <img src="images/user (1) 1.png" alt="">
               </div>
-              <p id="p1">Munirh Aldaej</p>
+              <p id="p1">Munira Aldaej</p>
               <p id="p2">Data Scientist</p>
               <p id="p3">🎨Team</p>
             </div>
@@ -175,7 +157,5 @@
         </div>
         <img src="images/Rectangle 18.png" alt="" id="end-img">
     </footer>
-    <script src="main.js"></script>
 </body>
-
 </html>
