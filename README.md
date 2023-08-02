@@ -21,5 +21,5 @@ With **Noter**, you're not just taking notes, **you're freeing your mind to focu
   - Senior SWE Student, UI/UX Designer, And Full Stack Web Developer.
   - [LinkedIn](https://www.linkedin.com/in/mohammed-f-aldosari-037140256)
 - **Abduallrahman Abduallah**
-  - Senior SWE Student, Game Developer, DevOps And Cloud Computing.
+  - Senior SWE Student, Game Developer, And Full Stack Web Developer.
   - [LinkedIn](https://www.linkedin.com/in/abdulrahman-abdullah-60baa7256)
